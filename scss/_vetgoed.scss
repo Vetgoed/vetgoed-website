@@ -7,6 +7,10 @@ html, body {
 a {
   color: #cecece;
   text-decoration: none;
+  transition: color 0.3s ease;
+  &:hover {
+    color: #E2A439;
+  }
 }
 
 #animation-wrapper {
