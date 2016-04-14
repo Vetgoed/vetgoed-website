@@ -233,6 +233,50 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/vid\/vetgoed-webbg1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92901,
+		"inputAbbreviatedPath": "\/vid\/vetgoed-webbg1.jpg",
+		"outputAbbreviatedPath": "\/vid\/vetgoed-webbg1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vid\/vetgoed-webbg2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59775,
+		"inputAbbreviatedPath": "\/vid\/vetgoed-webbg2.jpg",
+		"outputAbbreviatedPath": "\/vid\/vetgoed-webbg2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vid\/vetgoed-webbg3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 102730,
+		"inputAbbreviatedPath": "\/vid\/vetgoed-webbg3.jpg",
+		"outputAbbreviatedPath": "\/vid\/vetgoed-webbg3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vid\/vetgoed-webbg4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69598,
+		"inputAbbreviatedPath": "\/vid\/vetgoed-webbg4.jpg",
+		"outputAbbreviatedPath": "\/vid\/vetgoed-webbg4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		}
 	},
 "hooks": [
