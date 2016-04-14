@@ -505,7 +505,7 @@ textarea {
   h3 {
     page-break-after: avoid; } }
 @font-face {
-  font-family: 'kirkuregular';
+  font-family: 'kirkubold';
   src: url("../fonts/kirku-bold-webfont.eot");
   src: url("../fonts/kirku-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/kirku-bold-webfont.woff2") format("woff2"), url("../fonts/kirku-bold-webfont.woff") format("woff"), url("../fonts/kirku-bold-webfont.ttf") format("truetype"), url("../fonts/kirku-bold-webfont.svg#kirkuregular") format("svg");
   font-weight: bold;
@@ -532,7 +532,8 @@ header a {
   position: absolute;
   margin: 0;
   top: 1em;
-  color: #fff; }
+  color: #fff;
+  font-family: 'kirkubold'; }
 
 h1.logo {
   font-size: 2em;
