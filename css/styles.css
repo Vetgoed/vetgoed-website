@@ -555,8 +555,10 @@ header a {
   */ }
   @media all and (max-width: 767px) {
     header a {
-      bottom: 1.5em;
-      top: auto; } }
+      bottom: 2em;
+      right: 2em;
+      top: auto;
+      font-size: 1em; } }
 
 a {
   color: #cecece;

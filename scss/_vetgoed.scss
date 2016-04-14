@@ -33,8 +33,10 @@ header a {
   z-index: 2;
   font-size: 1.5em;
   @include breakpoint(mobile) {
-    bottom: 1.5em;
+    bottom: 2em;
+    right: 2em;
     top: auto;
+    font-size: 1em;
   }
 }
 
