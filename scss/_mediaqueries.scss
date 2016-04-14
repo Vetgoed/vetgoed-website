@@ -1,0 +1,31 @@
+@mixin breakpoint($point) {
+  @if $point == tablet {
+    @media all and (min-width: 768px) and (max-width: 991px) { @content; }
+  }
+  @if $point == mobile {
+    @media all and (max-width: 767px) { @content; }
+  }
+  @if $point == handheld {
+    @media all and (max-width: 991px) { @content; }
+  }
+  @if $point == pc {
+    @media all and (min-width: 992px) { @content; }
+  }
+/*
+  @if $point == pc {
+    @media all and (min-width: 992px) and (max-width: 1440px) { @content; }
+  }
+  @if $point == wide {
+    @media all and (min-width: 1441px) { @content; }
+  }
+*/
+  @if $point == retina {
+    @media 
+      only screen and (-moz-min-device-pixel-ratio: 1.5),
+      only screen and (-o-min-device-pixel-ratio: 3/2),
+      only screen and (-webkit-min-device-pixel-ratio: 1.5),
+      only screen and (min-device-pixel-ratio: 1.5),
+      only screen and (min-resolution: 144dpi) 
+    { @content; }
+  }
+}
