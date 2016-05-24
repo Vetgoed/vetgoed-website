@@ -42,10 +42,17 @@ footer {
   width: 300px;
   color: #fff;
   @include breakpoint(mobile) {
+    text-align: left;
+    font-size: 1.5em;
+    right: 1.5em;
+    left: 1.5em;
+    width: auto;
+/*
     bottom: 2em;
     right: 2em;
     top: auto;
-    font-size: 1em;
+*/
+    //font-size: 1em;
   }
 
   p {
