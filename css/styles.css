@@ -522,30 +522,35 @@ html, body {
   width: 100%;
   height: 100%; }
 
+body {
+  position: relative; }
+
 #page {
   width: 100%;
   height: 100%; }
 
 h1.logo,
-header .contact {
+footer {
   line-height: 1em;
   position: absolute;
   margin: 0;
-  top: 1em;
   color: #fff;
   font-family: 'kirkubold'; }
 
 h1.logo {
   font-size: 2em;
   left: 1em;
-  z-index: 1; }
+  z-index: 1;
+  top: 1em; }
 
-header .contact {
-  top: 1.5em;
+footer {
+  bottom: 1.5em;
   right: 1.5em;
   z-index: 2;
-  font-size: 1.5em;
+  font-size: 1.75em;
   text-align: right;
+  width: 300px;
+  color: #fff;
   /*
     @if $point == pc {
       @media all and (min-width: 992px) and (max-width: 1440px) { @content; }
@@ -555,11 +560,13 @@ header .contact {
     }
   */ }
   @media all and (max-width: 767px) {
-    header .contact {
+    footer {
       bottom: 2em;
       right: 2em;
       top: auto;
       font-size: 1em; } }
+  footer p {
+    margin: 0; }
 
 a {
   color: #fff;
