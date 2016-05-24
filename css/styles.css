@@ -527,7 +527,7 @@ html, body {
   height: 100%; }
 
 h1.logo,
-header a {
+header .contact {
   line-height: 1em;
   position: absolute;
   margin: 0;
@@ -540,11 +540,12 @@ h1.logo {
   left: 1em;
   z-index: 1; }
 
-header a {
+header .contact {
   top: 1.5em;
   right: 1.5em;
   z-index: 2;
   font-size: 1.5em;
+  text-align: right;
   /*
     @if $point == pc {
       @media all and (min-width: 992px) and (max-width: 1440px) { @content; }
@@ -554,14 +555,14 @@ header a {
     }
   */ }
   @media all and (max-width: 767px) {
-    header a {
+    header .contact {
       bottom: 2em;
       right: 2em;
       top: auto;
       font-size: 1em; } }
 
 a {
-  color: #cecece;
+  color: #fff;
   text-decoration: none;
   transition: color 0.3s ease; }
   a:hover {
